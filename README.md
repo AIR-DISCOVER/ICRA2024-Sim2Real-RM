@@ -147,14 +147,6 @@ Control reference:
 * `4`: Open gripper
 * `Ctrl + C`: Stop listening keyboard inputs
 
-### Display the timer for placing minerals
-
-`judging.sh` invokes `rostopic echo` which prints the `/judgement/markers_time` on the screen:
-
-```shell
-scripts/judging.sh
-```
-
 ### Use Visual Studio Code to debug
 
 Install the extension for remote developing of the docker container (ms-vscode-remote.remote-containers):
