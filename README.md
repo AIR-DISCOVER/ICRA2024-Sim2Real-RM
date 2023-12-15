@@ -210,7 +210,7 @@ docker login
 After logging in, use the following command to view the image ID that needs to be submitted：
 
 ```
-docker ps
+docker images
 ```
 
 Then change the name of the image that needs to be submitted：
