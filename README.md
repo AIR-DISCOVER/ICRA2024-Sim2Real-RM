@@ -199,9 +199,9 @@ RUN pip3 install -i https://pypi.tuna.tsinghua.edu.cn/simple scipy
 
 Submitting images requires registering for the ICRA2024-Sim2Real-RM challenges.
 
-Players create a personal [docker hub](https://hub.docker.com/) account，Create repository in Repositories, and save your Repository Name.
+Players create a personal [docker hub](https://hub.docker.com/) account,create repository in Repositories, and save your Repository Name.
 
-If players already have an account, they can directly enter their account password to log in: 
+If players already have an account,they can directly enter their account password to log in: 
 
 ```
 docker login
@@ -217,6 +217,12 @@ Then change the name of the image that needs to be submitted：
 
 ```
 docker tag {image_id} {username}/{repository_name}:{image_version}
+```
+
+Submit to dockerhub:
+
+```
+docker push {image_id}/{repository_name}:{image_version}
 ```
 
 ### Copy files from/to server/client containers
