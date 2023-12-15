@@ -42,7 +42,7 @@ end
 ## Software Architecture - Docker
 
 Docker is an open-source containerization platform that allows developers to package an application and its dependencies into a single container. This container contains everything needed to run the application in any Docker-enabled environment, thus ensuring consistency, portability, and repeatability. Docker has a wide range of uses in various application scenarios:
-Application Development and Testing: Developers can use Docker containers to build and test applications in local development environments, ensuring that they work across different environments. This helps solve the "it works on my machine" problem.
+     * Application Development and Testing: Developers can use Docker containers to build and test applications in local development environments, ensuring that they work across different environments. This helps solve the "it works on my machine" problem.
      * Continuous Integration/Continuous Deployment (CI/CD): Docker containers are integrated with CI/CD tools to automate the building, testing, and deploying of applications, improving the speed and quality of delivery.
      * Multi-Cloud and Hybrid Cloud Deployment: Docker containers can run in different cloud providers' environments, enabling multi-cloud and hybrid cloud deployment strategies that provide flexibility and elasticity.
      * Microservice Architecture: Each microservice can be packaged as a separate Docker container, making the microservice architecture easier to manage, scale, and deploy. Container orchestration tools such as Kubernetes can be used to automate the management of microservices.
