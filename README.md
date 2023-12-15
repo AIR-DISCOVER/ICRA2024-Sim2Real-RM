@@ -52,7 +52,8 @@ Docker has a wide range of uses in various application scenarios:
 * Failure Isolation and Security: Each Docker container is isolated and does not interfere with the operations of other containers, helping to improve application security and availability.
 * Data Processing and Analytics: Docker containers can be used to package and deploy data processing tasks, accelerating data analytics workloads while providing portability and scalability.
 
-Overall, Docker provides a modernized way to build, deploy, and manage applications, helping to streamline development and operations processes, and improving application reliability and maintainability. Given these capabilities, Docker has a wide range of uses in various application scenarios and is an important part of containerization technology.
+Overall, Docker provides a modernized way to build, deploy, and manage applications, helping to streamline development and operations processes, and improving application reliability and maintainability.
+Given these capabilities, Docker has a wide range of uses in various application scenarios and is an important part of containerization technology.
 
 
 
