@@ -39,6 +39,19 @@ A---S
 end
 ```
 
+## Software Architecture - Docker
+
+Docker is an open-source containerization platform that allows developers to package an application and its dependencies into a single container. This container contains everything needed to run the application in any Docker-enabled environment, thus ensuring consistency, portability, and repeatability. Docker has a wide range of uses in various application scenarios:
+Application Development and Testing: Developers can use Docker containers to build and test applications in local development environments, ensuring that they work across different environments. This helps solve the "it works on my machine" problem.
+     * Continuous Integration/Continuous Deployment (CI/CD): Docker containers are integrated with CI/CD tools to automate the building, testing, and deploying of applications, improving the speed and quality of delivery.
+     * Multi-Cloud and Hybrid Cloud Deployment: Docker containers can run in different cloud providers' environments, enabling multi-cloud and hybrid cloud deployment strategies that provide flexibility and elasticity.
+     * Microservice Architecture: Each microservice can be packaged as a separate Docker container, making the microservice architecture easier to manage, scale, and deploy. Container orchestration tools such as Kubernetes can be used to automate the management of microservices.
+     * Rapid Scaling and Load Balancing: Docker containers can scale rapidly to meet changing load demands, and container orchestration tools can automate load balancing to ensure high availability and performance.
+     * Failure Isolation and Security: Each Docker container is isolated and does not interfere with the operations of other containers, helping to improve application security and availability.
+     * Data Processing and Analytics: Docker containers can be used to package and deploy data processing tasks, accelerating data analytics workloads while providing portability and scalability.
+Overall, Docker provides a modernized way to build, deploy, and manage applications, helping to streamline development and operations processes, and improving application reliability and maintainability. Given these capabilities, Docker has a wide range of uses in various application scenarios and is an important part of containerization technology.
+
+
 ### Core (ROS Master)
 
 This part serves as the communication pivot in ROS systems.
