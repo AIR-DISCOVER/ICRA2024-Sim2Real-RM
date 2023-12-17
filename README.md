@@ -73,7 +73,7 @@ In this repo, we provide a baseline method for this task. A functional image can
 
 Note that, due to the hardware resource constraints on EP, a launched client should be limited to using less than 6 CPUs and 8192MB memory. These constraints are imposed by the `--cpus=5.6 -m 8192M` arguments in `launch.sh. Do not remove them during development, or online testing performance may be significantly lower than local testing.
 
-The baseline image (and potentially the images you built) is based on the base image `docker.discover-lab.com:55555/rm-sim2real/client-base:v1.4.0`. Basic functional units (e.g. [keyboard control](#manually-control-ep-with-keyboard)) are included in this base image. Please refer to [this repo](https://github.com/AIR-DISCOVER/ICRA-RM-Sim2Real-Client) for further information on the base image.
+The baseline image (and potentially the images you built) is based on the base image `orange131/test:v1.1`. Basic functional units (e.g. [keyboard control](#manually-control-ep-with-keyboard)) are included in this base image. Please refer to [this repo](https://github.com/AIR-DISCOVER/ICRA-RM-Sim2Real-Client) for further information on the base image.
 
 ## How-to
 
