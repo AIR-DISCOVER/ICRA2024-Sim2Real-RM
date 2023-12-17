@@ -240,7 +240,7 @@ docker tag {image_id} {username}/{repository_name}:{image_version}
 Submit to dockerhub:
 
 ```
-docker push {image_id}/{repository_name}:{image_version}
+docker push {username}/{repository_name}:{image_version}
 ```
 
 ### Copy files from/to server/client containers
