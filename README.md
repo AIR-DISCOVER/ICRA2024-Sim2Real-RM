@@ -77,6 +77,9 @@ The baseline image (and potentially the images you built) is based on the base i
 
 ## How-to
 
+### Docker Installation
+details click [docker](https://github.com/AIR-DISCOVER/ICRA-RM-Sim2Real/blob/main/docker_client/sim2real-install-guide.md)
+
 ### Launch server and client
 
 The launching script `launch.sh` will create the docker network, the communicating core, the server and client container respectively:
