@@ -69,7 +69,7 @@ The interfaces between the server and client are defined by ROS topics, and deta
 
 ### Client
 
-In this repo, we provide a baseline method for this task. A functional image can be obtained by [building the image](#build-an-updated-client-image) or pulling `tb5zhh/icra-2023-client:latest`.
+In this repo, we provide a baseline method for this task. A functional image can be obtained by [building the image](#build-an-updated-client-image) or pulling `orange131/test:v1.1`.
 
 Note that, due to the hardware resource constraints on EP, a launched client should be limited to using less than 6 CPUs and 8192MB memory. These constraints are imposed by the `--cpus=5.6 -m 8192M` arguments in `launch.sh. Do not remove them during development, or online testing performance may be significantly lower than local testing.
 
