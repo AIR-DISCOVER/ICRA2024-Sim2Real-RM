@@ -1,6 +1,6 @@
 #!/bin/bash
 SERVER_IMAGE=${SERVER_IMAGE:-rmus2022/server:marker_time_pub}
-CLIENT_IMAGE=${CLIENT_IMAGE:-orange131/test:v1.1}
+CLIENT_IMAGE=${CLIENT_IMAGE:-orange131/test:v1.1} # Just for test, if not effect, please change it to your client docker image. 
 CLI_EXE=$@
 
 xhost +
