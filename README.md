@@ -260,4 +260,9 @@ To invoke routines of indivisual components of the baseline, see [routines.md](.
 ## Reference
 
 See [reference.md](./reference.md).
+
+## Reference
+
+See [RULES](./RoboMaster+2024+University+Sim2Real+Challenge+V1.0.0_en20231124(1).pdf)
+
 # ICRA2024-Sim2Real-RM
