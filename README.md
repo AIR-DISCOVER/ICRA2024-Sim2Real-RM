@@ -263,6 +263,8 @@ See [reference.md](./reference.md).
 
 ## RULES
 
-See [RULES](./RoboMaster+2024+University+Sim2Real+Challenge+V1.0.0_en20231124(1).pdf)
+See [RULES_English](./RMUS2024_Rules_en.pdf)
+
+The chinese version can be found at [RULES_Chinese](./RMUS2024_Rules_ch.pdf)
 
 # ICRA2024-Sim2Real-RM
