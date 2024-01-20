@@ -67,6 +67,14 @@ In stage 1, the task is performed in the simulated scene. Therefore, we build a 
 
 The interfaces between the server and client are defined by ROS topics, and detailed definitions can be found [here](./reference.md).
 
+Here we provide a link to a netbook through which the mirror can be downloaded.
+
+【超级会员V2】通过百度网盘分享的文件：rmus2024....tar
+链接：https://pan.baidu.com/s/1HNFMIsmFSRPm3V-WuuzJfw 
+提取码：486A 
+复制这段内容打开「百度网盘APP 即可获取」
+
+
 ### Client
 
 In this repo, we provide a baseline method for this task. A functional image can be obtained by [building the image](#build-an-updated-client-image) or pulling `orange131/test:v1.1`.
@@ -267,13 +275,5 @@ See [RULES_English](./RMUS2024_Rules_en.pdf)
 
 The chinese version can be found at [RULES_Chinese](./RMUS2024_Rules_ch.pdf)
 
-## Docker image
-
-Here we provide a link to a netbook through which the mirror can be downloaded.
-
-【超级会员V2】通过百度网盘分享的文件：rmus2024....tar
-链接：https://pan.baidu.com/s/1HNFMIsmFSRPm3V-WuuzJfw 
-提取码：486A 
-复制这段内容打开「百度网盘APP 即可获取」
 
 # ICRA2024-Sim2Real-RM
