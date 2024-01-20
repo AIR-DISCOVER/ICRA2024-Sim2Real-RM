@@ -67,12 +67,7 @@ In stage 1, the task is performed in the simulated scene. Therefore, we build a 
 
 The interfaces between the server and client are defined by ROS topics, and detailed definitions can be found [here](./reference.md).
 
-Here we provide a link to a netbook through which the mirror can be downloaded.
-
-【超级会员V2】通过百度网盘分享的文件：rmus2024....tar
-链接：https://pan.baidu.com/s/1HNFMIsmFSRPm3V-WuuzJfw 
-提取码：486A 
-复制这段内容打开「百度网盘APP 即可获取」
+If you have problems pulling docker image, you can access it through Baidu Cloud.：https://pan.baidu.com/s/1HNFMIsmFSRPm3V-WuuzJfw and the passcode is : 486A 
 
 
 ### Client
